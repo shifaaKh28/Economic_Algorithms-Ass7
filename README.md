@@ -6,7 +6,7 @@ This project implements an algorithm to find the **cycle with the maximum averag
 
 ##  Problem Definition
 
-Given a **directed graph** with real weights (including negative values), find a cycle (if one exists) such that the **average weight per edge** in the cycle is **maximized**.
+Given a **directed graph** with real weights , find a cycle (if one exists) such that the **average weight per edge** in the cycle is **maximized**.
 
 The input is an **adjacency matrix** `graph`, where `-inf` represents absence of an edge.
 
