@@ -28,19 +28,6 @@ We use the **Karp algorithm**, which is a dynamic programming-based method to co
 
 ---
 
-## Correctness Justification
-
-The algorithm is based on a proven result from Karp (1978), which guarantees that:
-- If a cycle exists with average weight `μ`, it will be detected via:
-  \[
-  \mu^* = \max_{v} \min_{0 \leq k < n} \frac{dp[n][v] - dp[k][v]}{n - k}
-  \]
-- Using Bellman-Ford on shifted weights allows recovery of such a cycle.
-
-Hence, the algorithm is **correct** by design.
-
----
-
 ## Time Complexity
 
 - `dp` table computation: `O(n * m)`
