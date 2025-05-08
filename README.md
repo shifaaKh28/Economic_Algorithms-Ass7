@@ -35,5 +35,5 @@ We use the **Karp algorithm**, which is a dynamic programming-based method to co
 - Bellman-Ford cycle detection: `O(n * m)`
 - Cycle recovery: `O(n)`
 
-### 🔹 Total runtime: **O(n * m)** ⇒ **Polynomial time**
+### 🔹 Total runtime: **O(n * m)** = O(n^3)⇒ **Polynomial time**
 
